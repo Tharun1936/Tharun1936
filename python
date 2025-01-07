@@ -1,0 +1,13 @@
+Greeting
+
+import time 
+timestamp=time.strftime('%H:%M:%S')
+hour=int(time.strftime('%H'))
+print(hour)
+
+if (hour>0 and hour<12):
+    print("Good morning")
+elif (hour>=12 and hour<19):
+    print("Good evening")
+else:
+    print("Good night")
