@@ -1,4 +1,4 @@
-Greeting
+Greeting:
 
 import time 
 timestamp=time.strftime('%H:%M:%S')
@@ -12,7 +12,7 @@ elif (hour>=12 and hour<19):
 else:
     print("Good night")
 
-recursion
+recursion:
 
 def factorial(n):
     if (n==0 or n==1):
@@ -20,5 +20,27 @@ def factorial(n):
     else:
         return n*factorial(n-1)
 print(factorial(6))
+
+lerning the f strings:
+
+a="I am {} from {}"
+name="Tharun"
+place="Mysuru"
+print(a.format(name,place))
+print(f"I am {name} from {place}")
+
+#to get 2 decimal or any number of decimal
+
+a="for only {} rupees"
+price=48.222353
+print(f"for only {price:.2f} rupees")
+
+#doc strings
+
+def square(n):
+    '''Take input number and show its square number'''   #docstring should be written rightb below the def 
+    print(n**2)
+square(3)
+print(square.__doc__)
 
 
