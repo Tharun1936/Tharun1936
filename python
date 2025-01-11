@@ -74,4 +74,19 @@ print(s)
 s1.clear()
 print(s1)
 
+constructor:
+
+class Student:
+    def __init__(self,name,semester,college):
+        self.name=name
+        self.semester=semester
+        self.college=college
+        print(f"Student objects fot {self.name} created")
+
+    def display_details(self):
+        print("name:",self.name)
+        print("semester:",self.semester)
+        print("college:",self.college)
+
+
 
