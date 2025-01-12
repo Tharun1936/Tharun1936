@@ -76,6 +76,7 @@ print(s1)
 
 constructor:
 
+1)
 class Student:
     def __init__(self,name,semester,college):
         self.name=name
@@ -87,6 +88,25 @@ class Student:
         print("name:",self.name)
         print("semester:",self.semester)
         print("college:",self.college)
+
+2)
+class Person():
+    def greet(self):
+        return "hello I am a Person"
+class Student():
+    def greet(Person):
+        return "hello I am a student"
+class Teacher():
+    def greet(Person):
+        return "hello I am a Teacher"
+
+student=Student()
+teacher=Teacher()
+print(Student.greet())
+print(Teacher.greet())
+
+
+
 
 
 
