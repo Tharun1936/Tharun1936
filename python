@@ -105,6 +105,42 @@ teacher=Teacher()
 print(Student.greet())
 print(Teacher.greet())
 
+Learning dcictionary:
+
+dict={
+    "Tharun":"Human","pen":"object"
+}
+print(dict)
+print(dict["Tharun"])
+print(dict["pen"])
+
+dict1={
+    1:"tharun",2:"nandan",3:"soorya",4:"nikhil"
+}
+print(dict1[1])
+print(dict1[2])
+print(dict1[3])
+print(dict1[4])
+
+print(dict1.get(3))
+print(dict1[1])
+#get doesnot give error
+print(dict1.keys())
+print(dict1.values())
+
+for key in dict1:
+    print(f"For value corresponding key {key} is {dict1[key]} ")
+
+dict.update(dict1)
+print(dict)
+dict.clear()
+print(dict)
+dict1.pop(2)
+print(dict1)
+dict1.popitem()
+print(dict1)
+
+
 
 
 
