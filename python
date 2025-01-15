@@ -151,6 +151,22 @@ else:
 
 #loop ends perfectly but loop doesn't break
 
+Exception Handling:
+
+def fuc():
+    try:
+        num=int(input())
+        a=[1,2,3,4,5]
+        print(a[num])
+        return 0
+    except:
+        print("some error occured")
+        return 1
+    finally:
+        print("it is always execute")
+x=fuc()
+print(x)
+
 
 
 
