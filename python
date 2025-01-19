@@ -180,6 +180,14 @@ except:
 
 print("End of the code")
 
+try:
+  num=int(input("Enter the number:"))
+  a=[0,6]
+  print(a[num])
+except IndexError:
+  print("index error")
+finally:
+  print("I am always execute")
 
 
 
