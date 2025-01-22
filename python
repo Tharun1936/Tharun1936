@@ -209,6 +209,14 @@ num=int(input("Enter the number in between 7 to 9:"))
 if (num<7 or num>911):
     raise ValueError ("Entered value is wrong")
 
+lambda function:
+
+double=lambda x: x*2
+cube=lambda x: x*x*x
+avg=lambda x,y : (x+y)/2
+print(double(4))
+print(cube(4))
+print(avg(3,6))
 
 
 
