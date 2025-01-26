@@ -247,6 +247,15 @@ sum=reduce(msum,number)
 #sum = reduce(lambda x,y: x+y,number)
 print(sum)
 
+class and objects:
+
+class Person:
+    name= "tharun"
+    age=18
+    clg="DSU"
+a=Person()
+print(a.name,a.age,a.clg)
+
 
 
 
