@@ -78,24 +78,4 @@
 
 ---
 
-## 🏆 GitHub Trophies
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Tharun1936&theme=onedark&no-frame=false&row=1&column=6"/>
-</p>
-
----
-
-## 👀 Profile Views
-<p align="center">
-  <img src="https://visitcount.itsvg.in/api?id=Tharun1936&icon=0&color=0"/>
-</p>
-
----
-
-### 🚀 Open to:
-- Internships  
-- Full-Stack / Frontend roles  
-- Hackathons & Open-Source Contributions  
-
-⭐ *If you like my work, consider starring my repositories!*  
