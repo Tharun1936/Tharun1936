@@ -15,6 +15,9 @@ Building scalable full-stack applications, real-time systems, and backend servic
   <a href="https://github.com/Tharun1936" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
+  <a href="https://instagram.com/tharun._.gowda__" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+  </a>
 </p>
 
 ---
